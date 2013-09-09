@@ -1,0 +1,6 @@
+Program Description:	A 32-bit port of the BSD version of cal(1)
+			the Unix calendar printing program.
+
+Program Source:		Douglas Clifton [99clifto@lab.cc.wmich.edu]
+
+Program Directory:	os2/2.0/miscutils

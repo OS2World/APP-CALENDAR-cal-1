@@ -1,0 +1,21 @@
+This a port of the BSD cal(1) program to OS/2 2.0 under emx-gcc.
+
+It is a 32-bit executable and will not run under OS/2 1.x.
+
+To install, place the executable (cal.exe) in a directory in your PATH and
+the emx dynamic link library (emx.dll) in a directory in you LIBPATH. The
+latter step is unnecessary if you already have emx based software 
+installed on your machine.
+
+See the nroff source to the cal(1) manual page (cal.1) for copyright and
+redistribution information from the University of California at Berkeley.
+
+Also included is a pre-formatted version of cal.1 (cal.man). Be aware that
+this file includes highlighting in the form of second characters and
+backspacing. You will either need less 177 to view the file (nice program)
+or strip the extra stuff using sed or similar.
+
+Original software by Keith Letkeman, port by Douglas Clifton 9/92.
+I can be reached by E-mail at: 99clifto@lab.cc.wmich.edu.
+
+Enjoy.
